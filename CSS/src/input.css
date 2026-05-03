@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+    .bg-grid {
+        background-color: var(--color-blue-50);
+        background-image: linear-gradient(rgba(107, 134, 228, 0.1) 1px,  transparent 1px),
+        linear-gradient(90deg, rgba(107, 134, 228, 0.1) 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+}
