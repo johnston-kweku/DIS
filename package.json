@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "tailwindcss -i ./CSS/src/input.css -o ./CSS/src/output.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.4",
     "tailwindcss": "^4.2.4"
