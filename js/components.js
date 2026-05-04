@@ -9,5 +9,5 @@ function loadComponent(id, path) {
 
 // Load the navbar
 document.addEventListener("DOMContentLoaded", () => {
-    loadComponent('navbar-placeholder', '/HTML/components/navbar.html');
+    loadComponent('navbar-placeholder', '/components/navbar.html');
 });
